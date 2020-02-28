@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="All Details"
         android:textColor="#033146"
-        android:textSize="18dp"
+        android:textSize="20dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
