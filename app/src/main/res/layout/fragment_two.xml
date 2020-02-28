@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#92BBCF">
+    android:background="#B4FCD4">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="User Details"
+        android:textColor="#FF101111"
+        android:textSize="18dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Find user Details"
-        android:textColor="#033146"
-        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.437"
@@ -38,15 +38,15 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/name1"
         android:layout_width="268dp"
         android:layout_height="45dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginBottom="88dp"
         android:text="Name"
-        android:textColor="#056F9E"
-        android:textSize="17dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#FF121413"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.417"
@@ -55,14 +55,14 @@
         app:layout_constraintVertical_bias="0.859" />
 
     <TextView
-        android:id="@+id/age"
+        android:id="@+id/age1"
         android:layout_width="268dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="168dp"
         android:text="Age"
-        android:textColor="#056F9E"
+        android:textColor="#FF080809"
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,15 +72,16 @@
         app:layout_constraintVertical_bias="0.857" />
 
     <TextView
-        android:id="@+id/mark"
+        android:id="@+id/mark1"
         android:layout_width="268dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:textSize="18dp"
         android:layout_marginBottom="288dp"
         android:text="Marks"
-        android:textColor="#056F9E"
-        android:textSize="17dp"
+        android:textColor="#FF101111"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.417"

@@ -53,5 +53,10 @@ public class myDb extends SQLiteOpenHelper {
             return true;
         }
     }
+    public Cursor getDetails(){
+        SQLiteDatabase mydb = this.getWritableDatabase();
+        Cursor result=mydb.rawQuery("SELECT * FROM "+STUDENT_TABLE,null);
+        return result;
+    }
     
 }

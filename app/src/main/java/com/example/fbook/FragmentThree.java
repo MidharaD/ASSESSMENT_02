@@ -51,7 +51,7 @@ public class FragmentThree extends Fragment {
 
     public void viewAll(){
 
-        Cursor rs = myDatabase.getAll();
+        Cursor rs = myDatabase.getDetails();
         ArrayList<String> data = new ArrayList<>();
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),android.R.layout.simple_list_item_1,data);
         if((rs.getCount())==0){
@@ -71,7 +71,7 @@ public class FragmentThree extends Fragment {
         for(int i=0;i<(string1.length);i++){
             data.add(string1[i]);
         }
-        list.setAdapter(adapter);
+        //list.(adapter);
         //showMessage("data",""+buffer.toString());
     }
 
